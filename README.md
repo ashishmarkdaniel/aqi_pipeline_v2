@@ -124,44 +124,13 @@ It can also be triggered manually using the **workflow_dispatch** event for test
 
 ## Future Improvements
 
-- Duplicate protection using UPSERT
 - Support multiple monitoring stations
 - Historical backfill
-- Weather data integration
-- Docker containerization
-- CI testing
-
-## Dashboard
-
-Power BI connects directly to the PostgreSQL database and visualizes:
-
-- AQI trend
-- Pollutant trends
-- Daily summaries
-- Dominant pollutant analysis
-
-*(Dashboard screenshots will be added here.)*
-
-## Project Structure
-
-```
-aqi_pipeline_v2/
-│
-├── .github/
-│   └── workflows/
-│       └── aqi-etl.yml
-│
-├── main.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
 
 ## Learning Outcomes
 
 This project demonstrates experience with:
 
-- REST APIs
 - ETL design
 - Data transformation
 - PostgreSQL
